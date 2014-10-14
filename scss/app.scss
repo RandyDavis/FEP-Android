@@ -1,5 +1,7 @@
 @import "settings";
 @import "foundation";
+// @import "font-awesome-compass";
+// @import "font-awesome";
 // @import "foundation/components/magellan"
 
 
@@ -61,6 +63,28 @@ div.hero-wear {
     margin-top: 0;
     color: $white;
   }
+  p#icon-row {
+    display: table-cell;
+    span {
+      vertical-align: middle;
+    }
+    span#watch {
+      font-size: 24px;
+      color: $white;
+    }
+    span.circle-white {
+      color: $white;
+    }
+    span.circle-white:hover {
+      color: $android-green;
+    }
+    a#change-bg {
+      // background-color: $android-green;
+      width: 55px;
+      height: 25px;
+    }
+  }
+
 }
 
 
