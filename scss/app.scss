@@ -179,6 +179,7 @@ div.hero-tab {
 ///////////////////////////////////////////// 
 .three-part-section {
   padding-top: 45px;
+  margin-bottom: 85px;
 }
 .middle {
   border-right: 1px solid $light-gray;
@@ -190,3 +191,25 @@ div.hero-tab {
 /////////////////////////////////////////////
 //              FOOTER STYLES
 ///////////////////////////////////////////// 
+#footer {
+  background-color: $sand;
+  border-top: 1px solid $light-gray;
+  padding-bottom: 45px;
+  
+}
+.sitemap {
+  color: $concrete;
+}
+.sitemap a {
+  color: $concrete;
+  padding-bottom: 10px;
+  &:hover {
+    color: $oil;
+  }
+}
+
+
+
+
+
+
