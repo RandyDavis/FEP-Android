@@ -43,6 +43,16 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+
+/////////////////////////////////////////////
+//              PAGE STYLES
+///////////////////////////////////////////// 
+body {
+  font-size: 80%;
+}
+
+
+
 /////////////////////////////////////////////
 //              HEADER STYLES
 ///////////////////////////////////////////// 
@@ -93,14 +103,61 @@ div.hero-wear {
 /////////////////////////////////////////////
 //              COMING TO STYLES
 ///////////////////////////////////////////// 
-div.section-top-buffer {
-  padding-top: 85px;
+div {
+  .section {
+    padding-bottom: 85px;
+  }
+  .section-top-buffer {
+    padding-top: 85px;
+  }
+  .devices {
+    display: table;
+    margin: 30px auto 0 auto;
+    max-width: 1400px;
+    position: relative;
+    height: 379px;
+    .device {
+      display: table-cell;
+    }
+    .device.wear {
+      max-width: 230px;
+      padding: 0 40px;
+      box-sizing: border-box;
+      
+      position: relative;
+      text-align: center;
+    }
+    .device-img-wrap {
+      margin: 0 0 45px 0;
+    }
+  }
 }
 
 
+
+
 /////////////////////////////////////////////
-//              BEST OF STYLES
+//              BEST OF GOOGLE STYLES
 ///////////////////////////////////////////// 
+div.hero-tab {
+  margin-bottom: 0;
+}
+.hero-text-wrapper.best {
+  height: 150px;
+  background-color: $android-green;
+  margin-top: 0;
+  h2 {
+    margin-top: 0;
+    color: $white;
+  }
+  p.text-subhead {
+    color: $white;
+  }
+  p.subhead-link a {
+    color: $white;
+  }
+
+}
 
 
 
